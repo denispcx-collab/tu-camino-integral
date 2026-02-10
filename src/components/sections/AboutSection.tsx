@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Heart } from "lucide-react";
-import keylaPortrait from "@/assets/keyla-portrait.jpg";
+import keylaPortrait from "@/assets/keyla-portrait.webp";
 
 const AboutSection = () => {
   const scrollToServices = () => {
