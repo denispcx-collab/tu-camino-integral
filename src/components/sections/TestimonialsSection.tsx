@@ -12,7 +12,7 @@ import testimonio5 from "@/assets/testimonio-5.webp";
 const testimonials = [testimonio1, testimonio2, testimonio3, testimonio4, testimonio5];
 
 const TestimonialsSection = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "center" });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
           <div ref={emblaRef} className="overflow-hidden rounded-2xl">
             <div className="flex">
               {testimonials.map((src, i) => (
-                <div key={i} className="flex-[0_0_100%] min-w-0 px-2">
+                <div key={i} className="flex-[0_0_100%] md:flex-[0_0_50%] min-w-0 px-2">
                   <div className="bg-card rounded-2xl shadow-soft overflow-hidden border border-border/40">
                     <img
                       src={src}
