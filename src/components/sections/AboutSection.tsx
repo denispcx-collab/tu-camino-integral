@@ -56,10 +56,10 @@ const AboutSection = () => {
                 Acompaño a mujeres que desean una relación más profunda con Dios y una vida alineada con Su propósito.
               </p>
               <p>
-                Mi enfoque es <strong className="text-foreground">integral</strong> porque creo que Dios nos creó como un todo: <em className="text-primary">espíritu, alma y cuerpo</em>.
+                Mi enfoque es <strong className="text-foreground">integral</strong> porque Dios nos creó como un todo: <em className="text-primary">espíritu, alma y cuerpo</em>. (1 Tesalonicenses 5:23)
               </p>
               <p>
-                A diferencia de otros enfoques parciales, mi acompañamiento no se centra solo en lo espiritual o lo emocional, sino en la transformación completa de tu persona desde una perspectiva cristiana.
+                A diferencia de otros enfoques parciales, mi acompañamiento no se centra solo en lo espiritual o lo emocional, sino que basada en una perspectiva cristiana y acompañada de herramientas profesionales, lograrás la transformación completa de tu <strong className="text-foreground">SER</strong>
               </p>
             </div>
 
